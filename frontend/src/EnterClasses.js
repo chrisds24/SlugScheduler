@@ -363,7 +363,7 @@ class EnterClasses extends React.Component {
             }
             let curRow = rowsFilled[yrIndex]; // Current row to be filled for current year
             if (curRow >= rowsForEachYear[yrIndex].length) { // If another row is needed
-              rowsForEachYear[yrIndex].push(["","","","",""]); // Add a row with 5 columns
+              rowsForEachYear[yrIndex].push(["","","","",""]); // Add a row with 5 columns.
             }
 
             // [year][row][column]
